@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/competition/static/css/main.857be2aa.css",
+    "main.js": "/competition/static/js/main.196ca375.js",
+    "static/js/453.2352b810.chunk.js": "/competition/static/js/453.2352b810.chunk.js",
+    "static/media/clanfest digital artcompetition.pdf": "/competition/static/media/clanfest digital artcompetition.00f6d8ea2a8c855fc2a6.pdf",
+    "static/media/Asset 11@2x.png": "/competition/static/media/Asset 11@2x.25fe7e991b02142eb733.png",
+    "static/media/Acumin Variable Concept.ttf": "/competition/static/media/Acumin Variable Concept.c59fb2bd1f37a1433b15.ttf",
+    "static/media/bely.ttf": "/competition/static/media/bely.620a2f40374691d7fa8a.ttf",
+    "static/media/logo.svg": "/competition/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/competition/index.html",
+    "main.857be2aa.css.map": "/competition/static/css/main.857be2aa.css.map",
+    "main.196ca375.js.map": "/competition/static/js/main.196ca375.js.map",
+    "453.2352b810.chunk.js.map": "/competition/static/js/453.2352b810.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.857be2aa.css",
+    "static/js/main.196ca375.js"
+  ]
+}

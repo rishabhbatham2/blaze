@@ -1,0 +1,80 @@
+.signup__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+    width: 100vw;
+    padding: 5rem 0;
+}
+
+.signinner {
+    max-width: 611px;
+    width: 91%;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 8px; /* Smooth edges for the form */
+}
+
+.signup__label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7px;
+}
+
+.signup__input {
+    width: 100%;
+    height: 41px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.signup__input:focus {
+    outline: none;
+    border-color: var(--purple-color, #8e44ad); /* Default to purple if var is not defined */
+}
+
+.signup__button {
+    background-color: var(--purple-color, #8e44ad); /* Default to purple if var is not defined */
+    color: #fff;
+    width: 100%;
+    height: 41px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup__button:hover {
+    background-color: #6a2e92; /* Darker shade for hover effect */
+}
+
+.signup__bottomlabel {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #222;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signup__bottomlabel span {
+    color: var(--purple-color, #8e44ad);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:600px){
+    .signinner{
+        padding: 1rem 0rem;
+        box-shadow: none;
+    }
+}

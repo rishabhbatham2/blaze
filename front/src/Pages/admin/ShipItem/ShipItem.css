@@ -1,0 +1,20 @@
+.shipcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4rem 1px;
+}
+.product-inputs{
+    width: 99%;
+}
+.shippingaddress2{
+    display: flex;
+    
+}
+.shipping__itm{
+    width: 99%;
+}
+.shippingaddress2 > *{
+margin-right: .5rem
+}

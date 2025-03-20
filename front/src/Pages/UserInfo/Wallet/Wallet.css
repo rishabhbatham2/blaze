@@ -1,0 +1,101 @@
+.wallter__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    
+
+}
+
+.wallet__conins{
+ font-size: .85rem;
+ font-weight: 400;
+}
+
+
+.wallett{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #111;
+    margin-top:1rem;
+}
+
+.addcoinbutton{
+    width: 171px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addcoinbutton{
+    background-color: #fff;
+    color: #222;
+    width: 171px;
+    height: 41px;
+    margin-top: 1rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.widthdrawlbank{
+
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 291px;
+  }
+  
+  .popup-content button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-content button:first-of-type {
+    background: var(--purple-color); 
+    width: 141px;
+    color: white;
+  }
+  
+  .popup-content button:last-of-type {
+    background: #f4f4f4;
+    color: #222; 
+    width: 141px;
+  }
+  

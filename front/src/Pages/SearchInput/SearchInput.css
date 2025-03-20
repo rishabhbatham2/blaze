@@ -1,0 +1,25 @@
+.searchinputt{
+    width: 100%;
+   
+    padding: .9rem 1rem;
+    color: #444;
+}
+
+.searchinput_cont{
+    /* padding-top: 1rem; */
+    background-color: #fff;
+
+}
+
+.searhinputmain{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cacaca4c;
+    align-items: center;
+
+}
+.searhinputmain svg{
+    margin-left: .5rem;
+    margin-right: .7rem;
+  
+}

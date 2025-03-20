@@ -1,0 +1,22 @@
+.swiper-button-prev{
+    scale: .3;
+}
+
+.swiper-button-next{
+    scale: .3;
+}
+
+
+@media(max-width:850px){
+    .slidersection img{
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:480px){
+    .slidersection img{
+        height: 70vh;
+        object-fit: cover;
+    }
+}

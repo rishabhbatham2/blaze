@@ -1,0 +1,27 @@
+.reusable__filter{
+    width: 100%;
+    overflow-x: auto;
+    padding: -1px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.reusable__filter button{
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 31px;
+    height: 31px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}

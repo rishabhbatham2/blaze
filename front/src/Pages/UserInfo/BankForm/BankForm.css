@@ -1,0 +1,44 @@
+.bankdetails input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(112, 112, 112, 0.31);
+    background: white;
+    color: rgb(49, 49, 49);
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .bankdetails input:focus {
+    border-color: rgba(87, 87, 87, 0.116);
+    
+  }
+  
+  .bankdetails button {
+    cursor: pointer;
+  }
+
+  .adeytailsrow1{
+    display: flex;
+    width: 100%;
+  }
+  .adeytailsrow1 >*{
+   
+    margin-top: 1rem;
+    border-radius: 7px;
+   
+  }
+  .adeytailsrow1 :first-child{
+    margin-right: 1rem;
+  }
+  
+  .adeytailsrow2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .adeytailsrow2 >*{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+   
+  }

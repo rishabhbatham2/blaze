@@ -1,0 +1,129 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: -1px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.custom-table th {
+  font-weight: 700;
+  font-size: 12px;
+  color: #333;
+
+}
+
+.custom-table td {
+  font-size: 14px;
+  color: #4b5563;
+  border-bottom: 1px solid #e5e7eb;
+}
+.custom-table td:last-of-type{
+  font-size: 14px;
+  color: #4b5563;
+  border-bottom: none;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.custom-table tr:hover td {
+  background-color: #f1f5f9;
+}
+
+.checkbox-cell {
+  width: 40px;
+}
+
+.action-cell {
+  text-align: right;
+ 
+}
+.action-cell td{
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.last-row td {
+  border-bottom: none;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #6b7280;
+  cursor: pointer;
+ 
+
+}
+
+.action-button:hover {
+  color: #374151;
+}
+
+
+
+/* menu options///////////////////////////////////////////////////////////////////////////// */
+
+.action-cell {
+  position: relative;
+}
+
+.action-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  z-index: 2;
+  color: #777;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.action-menu-item {
+  padding: .6rem 1.3rem;
+  font-size: 14px;
+  cursor: pointer;
+  color: #444;
+  width: 99%;
+}
+.action-menu-item i{
+  margin-right: .5rem;
+}
+
+.action-menu-item:hover {
+  background-color: #f1f3f5;
+}
+
+
+.avatar{
+  width: 51px;
+  height: 51px;
+  object-fit: cover;
+  background-color: #fff;
+  border-radius: 11px;
+  cursor: pointer;
+
+}

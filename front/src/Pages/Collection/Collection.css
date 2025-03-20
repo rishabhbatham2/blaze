@@ -1,0 +1,387 @@
+.collection__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 4rem;
+}
+
+.collection__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.breadcumb {
+    display: flex;
+    padding: 2rem 4rem;
+    font-size: 1rem;
+    color: #444;
+    width: 100%;
+    justify-content: flex-start;
+    padding-bottom: 0;
+}
+
+.collection__heading1 {
+    display: flex;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #444;
+    width: 100%;
+    justify-content: flex-start; /* Adjust alignment */
+    align-items: center;
+}
+
+.collection__heading1 p:first-child {
+    font-size: 2rem;
+    color: #222;
+    font-weight: 700;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.collection__heading1 p:last-child {
+    color: #767676;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.collectioncontent {
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sections stay aligned */
+    align-items: flex-start;
+    padding: 1rem 4rem;
+    flex-wrap: wrap; /* Enables wrapping for small screens */
+    gap: 1rem; /* Adds spacing between sections */
+}
+
+.collection__content__left {
+    flex: 0 0 271px; /* Fixes the width for filters */
+    max-width: 100%; /* Ensures it doesn't exceed container width */
+    height: auto;
+   
+    overflow-y: auto;
+   
+}
+
+.collection__contenth {
+    padding: 0.3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0; /* Adds a subtle separator */
+    padding-bottom: .5rem;
+    cursor: pointer;
+}
+
+.collection__contenth p:first-child {
+    color: #222;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.collection__content__right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap; /* Allows cards to wrap for responsiveness */
+    gap: 1rem; /* Space between cards */
+    width: calc(100% - 320px); /* Adjusts width dynamically based on filter section */
+}
+.filterheading{
+    display: flex
+    ;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: .6rem;
+        padding-top: 1rem;
+        color: #222;
+        font-size: .9rem;
+        font-weight: 600;
+        color: #813588;
+}
+.filterheading2{
+    display: flex
+    ;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: .6rem;
+        padding-top: 1rem;
+        font-weight: 600;
+        color: #813588;
+}
+.filterheading3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0; /* Adds a subtle separator */
+    padding-bottom: .6rem;
+    padding-top: 1rem;
+    color: #222;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #813588;
+}
+.filtervalues{
+   display: flex;
+}
+.filtervalue{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem .5rem;
+}
+.filtervalue p{
+    margin-left: .5rem;
+    padding: 0 !important;
+    margin-top: 0;
+    padding-top: 0 ;
+    color: #444;
+    font-size: .8rem;
+}
+.filtervalues p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+}
+
+.filtervalues2{
+    display: flex;
+ }
+ .filtervalue2{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: .5rem .5rem;
+     width: 99%;
+     /* padding-top: 1rem; */
+     cursor: pointer;
+ }
+ .filtervalue2 p{
+     margin-left: .5rem;
+     padding: 0 !important;
+     margin-top: 0;
+     padding-top: 0 ;
+     color: #222;
+     font-size: 14px;
+ }
+ /* .filtervalue2 input{
+    width: 21px;
+    height: 21px;
+ } */
+ .filtervalues2 p{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     padding-bottom: .5rem;
+     padding-top: 1rem;
+ }
+
+
+
+
+
+
+
+ .filtervalues3{
+    display: flex;
+ }
+ .filtervalue3{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: .3rem .5rem;
+     width: 99%;
+    
+     cursor: pointer;
+ }
+ .filtervalue3 p{
+     margin-left: .5rem;
+     padding: 0 !important;
+     margin-top: 0;
+     padding-top: 0 ;
+     color: #222;
+     font-size: 14px;
+ }
+ .filtervalue3 input{
+    width: 21px;
+    height: 21px;
+ }
+ .filtervalues3 p{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     padding-bottom: .5rem;
+     padding-top: 1rem;
+ }
+ .filtervalues3 p:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: .5rem;
+    padding-top: 2rem;
+}
+
+ .filtervalue3 p:hover{
+    color: #813588;
+ }
+
+.collection__card {
+    flex: 0 0 calc(25% - 1rem); /* 4 cards per row with gap */
+    max-width: calc(25% - 1rem); /* Ensures consistent width */
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.card2 {
+    margin: 0;
+    text-align: left;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+}
+.collection__heading1 svg{ 
+display: none;
+}
+.card2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images fit well */
+}
+
+.bottomtitles {
+    padding: 0.5rem;
+}
+
+.bottomprices {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+    color: #444;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search__prices2{
+    height: 30px;
+    color: #888;
+    font-size: 13px;
+    padding: .7rem;
+    border: 1px solid #8888884b;
+    border-radius: 11px;
+    margin-right: 1rem;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+    cursor: pointer;
+    /* width: 92px; */
+}
+
+@media (max-width: 1200px) {
+   .breadcumb{
+    padding: 2rem 0rem;
+   }
+   .collection__heading1{
+    padding: 2rem 0rem;
+   }
+   .collectioncontent{
+    padding: 2rem 0rem;
+   }
+}
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .collectioncontent {
+        flex-direction: column;
+    }
+
+    .collection__content__left {
+        width: 100%; /* Takes full width on smaller screens */
+        margin-right: 0;
+    }
+
+    .collection__content__right {
+        width: 100%;
+    }
+
+    .collection__card {
+        flex: 0 0 calc(50% - 1rem); /* 2 cards per row */
+        max-width: calc(50% - 1rem);
+    }
+    .collection__content__left{
+        display: none;
+    }
+    .breadcumb{
+        padding-bottom: 1px;
+    }
+    .collection__heading1 {
+       padding-top: 2px;
+       padding-bottom: 1rem;
+    }
+    .collection__heading1 svg{ 
+        display: flex;
+    margin-left: auto
+        }
+    ;
+
+  
+}
+.col2-md-3 {
+    flex: 0 0 auto;
+    width: 31%;
+}
+@media (max-width: 800px) {
+    .collection__card {
+        flex: 0 0 calc(100% - 1rem); /* 1 card per row */
+        max-width: calc(100% - 1rem);
+    }
+   
+}
+
+@media (max-width: 600px) {
+   .collection__cont{
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+   .col2-md-3{
+    width: calc(51.333% - 1rem);
+
+   }
+   .breadcumb{
+    padding-top: 0rem;
+    font-size: 15px;
+   }
+   .collection__cont{
+    
+   }
+   .collectioncontent{
+    padding-top: 0;
+   }
+   .collection__heading1 p:first-child {
+    font-size: 16px;
+   text-align: left;
+   line-height: 1rem;
+   font-weight: 500;
+   margin-right: 0%;
+   
+}
+.collection__heading1 p:nth-child(2){
+    display: none;
+}
+  .collection__heading1 svg {
+margin-bottom: .5rem;
+}
+}

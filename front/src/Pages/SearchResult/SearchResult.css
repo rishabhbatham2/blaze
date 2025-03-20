@@ -1,0 +1,78 @@
+.filtersizemap{
+    height: 30px;
+    color: #888;
+    font-size: 13px;
+    padding: .7rem;
+    border: 1px solid #8888884b;
+    border-radius: 11px;
+    margin-right: 1rem;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 92px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.search__prices{
+    height: 30px;
+    color: #888;
+    font-size: 13px;
+    padding: .7rem;
+    border: 1px solid #8888884b;
+    border-radius: 11px;
+    margin-right: 1rem;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 92px;
+}
+
+.rightfilterbar{
+    max-width: 511px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: all .5s;
+
+}
+.rightfilteractive{
+    transform: translateX(1px);
+}
+
+.rightfilter__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    width: 100%;
+    padding-top: 0%;
+}
+
+.cancelbutonn{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.search__prices{
+    padding: .5rem;
+}
+.filtersizemap{
+    padding: .5rem;
+    
+}

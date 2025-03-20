@@ -1,0 +1,65 @@
+.order-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .order-card {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .order-container h2, h3 {
+    margin: 0 0 10px;
+    color: #222;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .order-container p {
+    margin: 5px 0;
+    color: #555;
+    font-weight: 300;
+    font-size: 13.5px;
+  }
+  
+  .order-container .product {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .total {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttonstyle44{
+    background-color: #c1c4fa7a;
+    color: #341cba;
+    padding: 11px 12px;
+    font-size: 13px;
+    border-radius: 11px;
+    width: 171px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .loader {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

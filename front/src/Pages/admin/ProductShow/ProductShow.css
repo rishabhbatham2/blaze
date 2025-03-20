@@ -1,0 +1,25 @@
+
+
+
+.product__header{
+    background-color: #fff;
+   
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.product__header p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.product__header button{
+    background-color: #f0f4ff;
+    color: #2b5bee;
+    border: 1px solid #d1e3ff;
+    font-weight: 500;
+}

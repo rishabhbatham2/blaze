@@ -1,0 +1,341 @@
+/* <!--------------------------- slider section start -----------------------------> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple-color: #813588;
+    --grey-color: #f8f8f8;
+    --brown-color: #795747;
+}
+
+body {
+    font-family: "Playfair", serif;
+}
+
+
+.slidersection {
+    position: relative;
+}
+
+.slidersection img {
+    width: 100%;
+}
+
+/* <!--------------------------- slider section end -------------------------------> */
+
+/* <!--------------------------- first section start -------------------------------> */
+
+.firstsection {
+    padding: 50px;
+}
+
+.firsteccard__prices{
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem .4rem;
+}
+.firsteccard__prices span{
+    color: #444;
+    font-size: 13px;
+    text-align: start;
+    font-weight: 400 !important;
+
+}
+.firsteccard__prices p:first-of-type{
+    color: #767676;
+    font-size: 13px;
+    margin-right: 8px;
+    font:  sans-serif;
+}
+.firsteccard__prices p:last-of-type{
+    color: #813588;
+    font-weight: 600;
+    font-size: 15px;
+}
+.firstsection_title h3 {
+    font-weight: 700;
+}
+
+.firstsection_title h3 span {
+    color: var(--brown-color);
+}
+
+.firstsection_card {
+    margin-top: 20px;
+   /*  padding: 20px; */
+   /*  background-color: var(--grey-color); */
+   background-color: #fff;
+   border-radius: 11px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.firstsection_card img {
+    width: 100%;
+}
+
+.firstsection_card label {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 7px;
+}
+
+.firstsection_card span {
+    margin-right: 10px;
+    color: grey;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: line-through;
+
+}
+
+.firstsection_card b {
+    color: var(--purple-color);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.firstsection_card hr {
+    position: absolute;
+    width: 70px;
+    bottom: 15px;
+    transform: rotate(-7deg);
+    left: 65px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .firstsection {
+        padding: 10px;
+    }
+    .firstsection_title h3 {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .firstsection_card label {
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #444;
+        text-align: start;
+    }
+    .firstsection_card span,b {
+        margin-right: 10px;
+        color: grey;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    
+}
+
+
+/* <!--------------------------- first section end ---------------------------------> */
+
+/* <!--------------------------- second section start -----------------------------> */
+
+.secondsection_image {
+    position: relative;
+    padding: 0px 50px;
+}
+
+.secondsection_image img {
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .secondsection_image {
+        position: relative;
+        padding: 0px 0px;
+    }   
+}
+
+/* <!--------------------------- second section end -------------------------------> */
+
+
+/* <!--------------------------- third section start -------------------------------> */
+
+.thirdsection {
+    padding: 50px;
+}
+
+.thirdsection_title h3 {
+    font-weight: 700;
+}
+
+.thirdsection_title h3 span {
+    color: var(--brown-color);
+}
+
+.thirdsection_title p {
+    font-size: 17px;
+    transform: translateY(-10px);
+}
+
+.thirdsection_card {
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 11px;
+}
+
+.thirdsection_card img {
+    width: 100%;
+}
+
+.thirdsection_card label {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.thirdsection_card span {
+    margin-left: 10px;
+    color: grey;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.thirdsection_card b {
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.thirdsection_card hr {
+    position: absolute;
+    width: 50px;
+    bottom: 18px;
+    left: 52px;
+}
+
+.sectionthird_button {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.sectionthird_button button {
+    border: none;
+    background-color: #000;
+    color: var(--grey-color);
+    padding: 5px 50px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .thirdsection {
+        padding: 10px;
+    }
+    .thirdsection_card label {
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .thirdsection_title h3{
+        font-size: 14px;
+    }
+    .thirdsection_title p {
+        font-size: 13px;
+        transform: translateY(-10px);
+        margin-bottom: 0%;
+    }
+}
+
+/* <!--------------------------- third section end ---------------------------------> */
+
+/* <!--------------------------- forth section start -----------------------------> */
+.bottomtitles{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: .5rem;
+    padding-left: .7rem;
+}
+.bottomprices{
+    display: flex;
+    white-space: nowrap;
+}
+.bottomprices p:first-child{
+    margin-right: .7rem;
+}
+.bottomprices p:nth-child(2){
+    color: #767676;
+    margin-right: .7rem;
+    text-decoration: line-through;
+}
+.bottomprices p:last-child{
+    color: #813588;
+    font-weight: 700;
+    
+}
+.bottomprices p:first-child{
+
+}
+.bottomtitles p:first-child{
+    color: #444;
+    font-size: 1rem;
+    margin-bottom: .1rem;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 1.7rem;
+    color: #443;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 1.7rem;
+    color: #443;
+}
+.swiper-pagination {
+    display: none;
+  }
+.forthsection_image {
+    position: relative;
+    padding: 0px 50px;
+}
+
+.forthsection_image img {
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .forthsection_image {
+        position: relative;
+        padding: 0px 00px;
+    }   
+    .bottomtitles{
+        font-size: 13px;
+    }
+    .bottomprices{
+        font-size: 13px;
+    }
+    .bottomtitles p:first-child {
+        color: #444;
+        font-size: 13px;
+        margin-bottom: .1rem;
+    }
+    
+    .sectionthird_button{
+        margin: 15px 2px;
+    }
+    .sectionthird_button button{
+        font-size: 14px;
+    }
+}
+
+/* <!--------------------------- forth section end -------------------------------> */

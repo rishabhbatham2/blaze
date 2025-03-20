@@ -1,0 +1,34 @@
+.add-address__cont{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1.5rem 2rem;
+    border-radius: 11px;
+}
+
+.add-address-inner{
+    width: 100%;
+}
+
+.add-address-label{
+    display: flex;
+    text-align: left;
+
+}
+
+.add-address-button{
+    background-color: rgb(244, 244, 244);
+    color: #444;
+    font-weight: 600;
+    font-size: .9rem;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: .6rem 1rem;
+    margin-top: 1rem;
+}
+
+@media(max-width:600px){
+    .add-address__cont{
+        padding: 0;
+        border: none;
+    }
+}

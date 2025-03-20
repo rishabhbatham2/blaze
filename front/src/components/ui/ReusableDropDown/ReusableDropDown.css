@@ -1,0 +1,36 @@
+.reusable-dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  
+  .reusable-dropdown-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .reusable-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .reusable-dropdown:focus {
+    outline: none;
+    border-color: #007bff; /* Change to your theme color */
+  }
+  
+  .reusable-dropdown option {
+    padding: 10px;
+  }
+  

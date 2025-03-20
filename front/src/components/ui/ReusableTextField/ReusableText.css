@@ -1,0 +1,40 @@
+.reusable-input2-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  
+  .reusable-input2-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .reusable-input2 {
+    width: 100%;
+    min-height: 40px;  /* Set a minimum height for the textarea */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: none;  /* Disable manual resizing */
+    overflow: hidden;  /* Prevent scrollbar from appearing */
+  }
+  
+  .reusable-input2:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .reusable-input2::placeholder {
+    color: #aaa;
+    opacity: 1;
+  }
+  

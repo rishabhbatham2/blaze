@@ -1,0 +1,27 @@
+.datafilters{
+    width: 100%;
+    overflow-x: auto;
+    padding: -1px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.datafilters__item{
+    border: 1x solid #998;
+    font-size: 13px;
+    font-size: 13px;
+    padding: .5rem 1rem;
+    border: 1px solid #e1e1d3;
+    margin-right: 1rem;
+    border-radius: 11px;
+    color: #2c2c2c;
+    cursor: pointer;
+
+}

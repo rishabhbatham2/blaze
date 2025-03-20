@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Acumin Variable Concept";
+  src: url("../assets/fonts/Acumin Variable Concept.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bely";
+  src: url("../assets/fonts/bely.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@base body {
+  font-family: "serif";
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+@base h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  margin: 0 0 1 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@font-face {
+  font-family: "Acumin Variable Concept";
+  src: url("../assets/fonts/Acumin Variable Concept.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bely";
+  src: url("../assets/fonts/bely.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=main.css.map */

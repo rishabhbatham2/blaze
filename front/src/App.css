@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  font-family: 'Poppins';
+  background-color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+  
+ 
+
+}
+p{
+  margin: 0%;
+  padding: 0;
+  text-overflow: ellipsis;    
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.cart_card img{
+  max-width: 91px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Import Bely font */
+@font-face {
+  font-family: 'Bely';
+  src: url('./assets/fonts/bely.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+/* Import Acumin Variable Concept font */
+@font-face {
+  font-family: 'Acumin Variable Concept';
+  src: url('./assets/fonts/Acumin Variable Concept.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input, textarea {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+.toastcont{
+  z-index: 21;
+  position: absolute;
+}
+
+
+:root {
+  --primary-color: #e6b249;
+  --secondary-color: #0d9e92;
+  --bg1: #f7f7f7;
+  --bg2: #0d9e92;
+  --bg4:#bfbec5;
+  --bg5:#fff;
+  --shadow1: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --shadow2: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --divider-color: #ccc;
+  --font-family: 'Bely, sans-serif';
+  --gry:rgb(90 90 90);
+
+  --text1:#595959;
+  --text2:#fff;
+  --text3:#e6b249;
+
+}
+
+.nomatach{
+  display: flex;
+ width: calc(100vw - 320px);
+
+  height: 91vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid #87878641;
+border-radius: 11px;
+}
+.nomatach img{
+  width: 171px
+}
+.nomatach p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #878786;
+ 
+}
+.firstsection {
+  width: 100vw;
+  overflow: hidden;
+}
+.thirdsection{
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+@media(max-width:1024px){
+  .nomatach{
+    width: 94vw;
+    height: 71vh;
+  }
+ }
+@media(max-width:600px){
+ .row{
+  --bs-gutter-x:.4rem
+  }
+
+  .App{
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}

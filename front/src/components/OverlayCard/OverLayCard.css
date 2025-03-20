@@ -1,0 +1,9 @@
+.overlaycont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 71%;
+    height: 100%;
+    background-color: #ddd;
+}

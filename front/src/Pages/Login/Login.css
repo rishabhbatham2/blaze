@@ -1,0 +1,65 @@
+.login__cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginner{
+    max-width: 511px;
+    width: 91%;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+
+
+}
+.loglabell{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7px;
+}
+
+.logbutton{
+    background-color: var(--purple-color);
+    color: #fff;
+    width: 100%;
+    height: 41px;
+    margin-top: 1rem;
+}
+.logbutton:hover{
+    background-color: #222;
+}
+
+.bottomlabel{
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: #222;
+    display: flex;
+    justify-content: flex-start;
+}
+.bottomlabel span{
+    color: var(--purple-color);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width:600px){
+
+    .loginner{
+        box-shadow: none;
+        max-width: unset;
+        padding: unset;
+        width: 94%;
+    }
+    .login__cont{
+        height: 77vh;
+    }
+}

@@ -1,0 +1,50 @@
+.userinfo__data2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: .7rem;
+}
+.userinfo__data input{
+    font-size: 14px;
+}
+.userinfo__data2 input{
+    font-size: 14px;
+}
+.userinfodata__heading {
+  display: flex;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.genders{
+    display: flex;
+    
+
+}
+.apply-button{
+    background-color: #1644b9;
+    width: 121px;
+    font-size: 13px;
+    color: #fff;
+    height: 41px;
+    margin-top: 1rem;
+    margin-right: auto;
+}
+.applybuttoncont{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.genderrr {
+    width: 112px;
+    font-size: 14px;
+    padding: .5rem 1rem;
+    background-color: #f5f5f5;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+    color: #fff;
+}
