@@ -18,10 +18,7 @@ const razorpayInstance = new Razorpay({
 });
 const { Parser } = require('json2csv');
 
-/* const razorpayInstance = new Razorpay({
-  key_id: 'rzp_live_ihXhp7al0XuYsU',
-  key_secret: 'TgU5aT3YFg11Ppb9UZjgSH8F',
-}); */
+
 const crypto = require('crypto');
 
 
